@@ -72,4 +72,23 @@ export const Container = styled.div`
     font-weight: bold;
     cursor: pointer;
   }
+  .table-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: #f2f2f2;
+    padding: 40px;
+
+    table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    tr {
+      margin: 8px 0px;
+    }
+  }
 `;
